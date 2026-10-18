@@ -41,8 +41,10 @@ Save an image as `assets/profile-background.jpg` (under about 400 KB; resize it 
 git init
 git add .
 git commit -m "First version"
-git branch -M main
+
 git remote add origin https://github.com/YOUR-USER/YOUR-REPO.git
+
+git branch -M main
 git push -u origin main
 ```
 
