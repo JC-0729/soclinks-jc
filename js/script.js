@@ -16,7 +16,7 @@ const CONFIG = {
     location: "Davao City, Philippines", // "" to hide
     status: "Available for new projects", // "" to hide
     badge: true,             // small decorative check mark (NOT a platform verification)
-    photo: "assets/profile1.jpg",               // e.g. "assets/profile.jpg". Empty = initials placeholder
+    photo: "assets/profile1.JPG",               // e.g. "assets/profile.jpg". Empty = initials placeholder
     photoAlt: "Portrait of Your Name",
     shape: "circle"          // "circle" | "rounded" | "square"
   },
@@ -115,16 +115,16 @@ const CONFIG = {
 
   /* Placeholders. Replace with your real details. A number containing "X" disables Copy. */
   payments: [
-    { provider: "GCash", holder: "JOHN CRISTOPHER MUNIZ", number: "09541527663", qr: "assets/payment-qr/gcash.jpg", link: "https://",
+    { provider: "GCash", holder: "JOHN CRISTOPHER MUNIZ", number: "09541527663", qr: "assets/payment-qr/gcash.JPG", link: "https://",
       note: "", show: true,
       icon: '<svg width="256px" height="256px" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#4a4a4a" stroke-width="0.384"><path stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.376" d="M84 96h36c0 19.882-16.118 36-36 36s-36-16.118-36-36 16.118-36 36-36c9.941 0 18.941 4.03 25.456 10.544"></path><path fill="#000000" d="M145.315 66.564a6 6 0 0 0-10.815 5.2l10.815-5.2ZM134.5 120.235a6 6 0 0 0 10.815 5.201l-10.815-5.201Zm-16.26-68.552a6 6 0 1 0 7.344-9.49l-7.344 9.49Zm7.344 98.124a6 6 0 0 0-7.344-9.49l7.344 9.49ZM84 152c-30.928 0-56-25.072-56-56H16c0 37.555 30.445 68 68 68v-12ZM28 96c0-30.928 25.072-56 56-56V28c-37.555 0-68 30.445-68 68h12Zm106.5-24.235C138.023 79.09 140 87.306 140 96h12c0-10.532-2.399-20.522-6.685-29.436l-10.815 5.2ZM140 96c0 8.694-1.977 16.909-5.5 24.235l10.815 5.201C149.601 116.522 152 106.532 152 96h-12ZM84 40c12.903 0 24.772 4.357 34.24 11.683l7.344-9.49A67.733 67.733 0 0 0 84 28v12Zm34.24 100.317C108.772 147.643 96.903 152 84 152v12a67.733 67.733 0 0 0 41.584-14.193l-7.344-9.49Z"></path><path stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.376" d="M161.549 58.776C166.965 70.04 170 82.666 170 96c0 13.334-3.035 25.96-8.451 37.223"></path></g><g id="SVGRepo_iconCarrier"><path stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.719999999999999" d="M84 96h36c0 19.882-16.118 36-36 36s-36-16.118-36-36 16.118-36 36-36c9.941 0 18.941 4.03 25.456 10.544"></path><path fill="#000000" d="M145.315 66.564a6 6 0 0 0-10.815 5.2l10.815-5.2ZM134.5 120.235a6 6 0 0 0 10.815 5.201l-10.815-5.201Zm-16.26-68.552a6 6 0 1 0 7.344-9.49l-7.344 9.49Zm7.344 98.124a6 6 0 0 0-7.344-9.49l7.344 9.49ZM84 152c-30.928 0-56-25.072-56-56H16c0 37.555 30.445 68 68 68v-12ZM28 96c0-30.928 25.072-56 56-56V28c-37.555 0-68 30.445-68 68h12Zm106.5-24.235C138.023 79.09 140 87.306 140 96h12c0-10.532-2.399-20.522-6.685-29.436l-10.815 5.2ZM140 96c0 8.694-1.977 16.909-5.5 24.235l10.815 5.201C149.601 116.522 152 106.532 152 96h-12ZM84 40c12.903 0 24.772 4.357 34.24 11.683l7.344-9.49A67.733 67.733 0 0 0 84 28v12Zm34.24 100.317C108.772 147.643 96.903 152 84 152v12a67.733 67.733 0 0 0 41.584-14.193l-7.344-9.49Z"></path><path stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.719999999999999" d="M161.549 58.776C166.965 70.04 170 82.666 170 96c0 13.334-3.035 25.96-8.451 37.223"></path></g></svg>'
       
     },
-    { provider: "Maya", holder: "JOHN CRISTOPHER L MUNIZ", number: "09541527663", qr: "assets/payment-qr/maya.jpg", link: "https://",
+    { provider: "Maya", holder: "JOHN CRISTOPHER L MUNIZ", number: "09541527663", qr: "assets/payment-qr/maya.JPG", link: "https://",
       note: "@jcmuniz", show: true,
       icon: '<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48"><title>maya</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M38.5 5.5h-29c-2.2 0-4 1.8-4 4v29c0 2.2 1.8 4 4 4h29c2.2 0 4-1.8 4-4v-29c0-2.2-1.8-4-4-4"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M31.722 25.227v2.982a2.21 2.21 0 0 1-3.771 1.563"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M31.722 21.581v3.646a2.21 2.21 0 0 1-4.419 0V21.58M9.5 23.79a2.21 2.21 0 0 1 4.419 0v3.646M9.5 21.581v5.855m4.419-3.646a2.21 2.21 0 0 1 4.419 0v3.646m6.695-2.209a2.21 2.21 0 0 1-4.419 0V23.79a2.21 2.21 0 1 1 4.419 0m0 3.646v-5.855M38.5 25.227a2.21 2.21 0 0 1-4.419 0V23.79a2.21 2.21 0 1 1 4.419 0m0 3.646v-5.855"/></svg>',
     },
-    { provider: "PayPal", copyLabel: "Copy username", holder: "JOHN CRISTOPHER MUNIZ", number: "JCM2629", qr: "assets/payment-qr/paypal.jpg", link: "https://www.paypal.com/paypalme/jcm2629",
+    { provider: "PayPal", copyLabel: "Copy username", holder: "JOHN CRISTOPHER MUNIZ", number: "JCM2629", qr: "assets/payment-qr/paypal.JPG", link: "https://www.paypal.com/paypalme/jcm2629",
       note: "@09541527663 · jcm_a24@proton.me", show: true, 
       icon: '<svg s="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512"><title>paypal-dark</title><path d="M430.1 130.1c-.5 3-1 6.1-1.6 9.3c-21 107.8-92.8 145-184.5 145h-46.7c-11.2 0-20.7 8.1-22.4 19.2L151 455.2l-6.8 43c-1.1 7.3 4.5 13.8 11.8 13.8h82.8c9.8 0 18.1-7.1 19.7-16.8l.8-4.2l15.6-98.9l1-5.4c1.5-9.7 9.9-16.8 19.7-16.8H308c80.2 0 143-32.6 161.4-126.8c7.7-39.4 3.7-72.3-16.6-95.4c-6.2-7.1-13.8-12.9-22.7-17.6" opacity=".5"/><path d="M408.1 121.3c-3.2-.9-6.5-1.8-9.9-2.5s-6.9-1.4-10.5-2c-12.6-2-26.4-3-41.2-3H221.8c-3.1 0-6 .7-8.6 2c-5.8 2.8-10 8.2-11.1 14.9l-26.5 168.1l-.8 4.9c1.7-11.1 11.2-19.2 22.4-19.2H244c91.7 0 163.5-37.2 184.5-145c.6-3.2 1.2-6.3 1.6-9.3c-5.3-2.8-11.1-5.2-17.3-7.3c-1.5-.6-3.1-1.1-4.7-1.6"/><path d="M202.1 130.6c1-6.7 5.3-12.1 11.1-14.9c2.6-1.3 5.5-2 8.6-2h124.7c14.8 0 28.6 1 41.2 3c3.6.6 7.1 1.2 10.5 2s6.7 1.6 9.9 2.5c1.6.5 3.2 1 4.7 1.5c6.2 2.1 11.9 4.5 17.3 7.3c6.2-39.8-.1-66.9-21.6-91.5C384.8 11.6 341.9 0 287.1 0H128c-11.2 0-20.8 8.1-22.5 19.2L39.2 439.4c-1.3 8.3 5.1 15.8 13.5 15.8H151l24.7-156.5z" opacity=".72"/></svg>',
     },
@@ -144,12 +144,12 @@ const CONFIG = {
      A number containing "X" is treated as a placeholder (Copy stays disabled). Copy a line to add more banks. */
   banks: [
      { bank: "MariBank", holder: "JOHN CRISTOPHER MUNIZ", number: "1998 6489 663", type: "", branch: "", swift: "LAUIPHM2 / LAUIPHM2XXX", note: "", link: "https://", 
-      show: true, qr: "assets/payment-qr/maribank.png",
+      show: true, qr: "assets/payment-qr/maribank.PNG",
       icon: '<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48"><title>lappli-m</title><circle cx="24" cy="24" r="17.902" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24" cy="24" r="21.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m38.846 13.997l2.976-2.024m-1.318 5.093l3.312-1.408m-3.173 14.936l3.312 1.408m-6.507 3.816l2.767 2.3M24 41.902V45.5M9.428 39.808l2.416-2.665m-4.95-.12l2.863-2.179M3.354 30l3.43-1.093M19.124 3.06l.952 3.474m12.222 1.603l1.691-3.175M17.344 30.64V17.345L24 30.656l6.656-13.292v13.292"/></svg>',
      },
 
     { bank: "BDO - UNIBANK", holder: "JOHN CRISTOPHER MUNIZ", number: "0106 1025 4820", type: "", branch: "SM DAVAO CITY ANNEX", swift: "BNORPHMM / BNORPHMMXXX", note: "", link: "https://", 
-      show: true, qr: "assets/payment-qr/bdo.jpg",
+      show: true, qr: "assets/payment-qr/bdo.JPG",
        icon: '<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48"><title>bdo-digital-banking</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M38.5 5.5h-29c-2.2 0-4 1.8-4 4v29c0 2.2 1.8 4 4 4h29c2.2 0 4-1.8 4-4v-29c0-2.2-1.8-4-4-4"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M20.595 29.413V18.587h2.436a4.736 4.736 0 0 1 4.736 4.736v1.354a4.736 4.736 0 0 1-4.736 4.736zM14.966 24a2.707 2.707 0 0 1 0 5.413H10.5V18.587h4.466a2.707 2.707 0 0 1 0 5.413m0 0H10.5"/><rect width="7.172" height="10.826" x="30.328" y="18.587" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" rx="3.586" ry="3.586"/></svg>',
     },
 
