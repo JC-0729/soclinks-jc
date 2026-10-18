@@ -16,7 +16,7 @@ const CONFIG = {
     location: "Davao City, Philippines", // "" to hide
     status: "Available for new projects", // "" to hide
     badge: true,             // small decorative check mark (NOT a platform verification)
-    photo: "assets/profile1.jpg",               // e.g. "assets/profile.jpg". Empty = initials placeholder
+    photo: "assets/profile1.JPG",               // e.g. "assets/profile.jpg". Empty = initials placeholder
     photoAlt: "Portrait of Your Name",
     shape: "circle"          // "circle" | "rounded" | "square"
   },
