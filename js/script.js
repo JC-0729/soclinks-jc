@@ -40,7 +40,8 @@ const CONFIG = {
     { id: "links",    show: true,  title: "Find me online" },
     { id: "contact",  show: true,  title: "Contact" },
     { id: "payments", show: true,  title: "E-Wallets / FinTechs" },
-    { id: "banks",    show: true,  title: "BANKS" },
+    { id: "banks",    show: true,  title: "Banks" },
+    { id: "crypto",    show: true,  title: "Crypto Stablecoin Transfer" },
     { id: "featured", show: false, title: "Featured" },
     { id: "interests",show: false, title: "Interests" },
     { id: "faq",      show: false, title: "Questions" }
@@ -111,14 +112,27 @@ const CONFIG = {
      { label: "Gmail", value: "jcmuniz0067@gmail.com", href: "mailto:jcmuniz0067@gmail.com",   show: true,
       icon: '<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><title>gmail</title><path fill="currentColor" d="M20 20H4v-2h16zM4 18H2V6h2zm18 0h-2V6h2zM8 10h2v2H8v4H6V8h2zm10 6h-2v-4h-2v-2h2V8h2zm-4-2h-4v-2h4zm6-8H4V4h16z"/></svg>',
      },
+
+    // Crypto Stablecoin E-Wallets
+  ],
+    crypto: [
+    { provider: "AirTM - EURC (IBAN transfer) ", holder: "JOHN CRISTOPHER MUNIZ", number: "LU794080000074902203", qr: "", link: "https://",
+      note: "", bankName: "Banking Circle S.A.", bankAddress: "2 Boulevard de la Foire, L-1528 Luxembourg", iban: "", bic: "BCIRLULL", wire: "", ach: "", show: true, 
+      icon: '<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48"><title>airtm</title><path fill="none" stroke="currentColor" stroke-dashoffset="3" stroke-linecap="round" stroke-linejoin="round" d="M41.896 20.99L9.622 40.69c-2.063 1.26-4.342-.957-3.236-3.236L20.855 7.648c.894-1.841 3.035-1.411 3.72 0l16.487 33.928"/></svg>',
+    },
+
+    { provider: "AirTM - USDC (Bank transfer) ", holder: "JOHN CRISTOPHER MUNIZ", number: "210401761695", qr: "", link: "https://",
+      note: "", bankName: "Lead Bank", bankAddress: "1801 Main St., Kansas City, MO 64108", iban: "", bic: "", routingNumber: "101019644", wire: "", ach: "", copyLabel: "Copy Acc Number", show: true, 
+      icon: '<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48"><title>airtm</title><path fill="none" stroke="currentColor" stroke-dashoffset="3" stroke-linecap="round" stroke-linejoin="round" d="M41.896 20.99L9.622 40.69c-2.063 1.26-4.342-.957-3.236-3.236L20.855 7.648c.894-1.841 3.035-1.411 3.72 0l16.487 33.928"/></svg>',
+    },
   ],
 
   /* Placeholders. Replace with your real details. A number containing "X" disables Copy. */
   payments: [
     { provider: "GCash", holder: "JOHN CRISTOPHER MUNIZ", number: "09541527663", qr: "assets/payment-qr/gcash.JPG", link: "https://",
-      note: "", show: true,
+      note: "",  show: true,
       icon: '<svg width="256px" height="256px" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#4a4a4a" stroke-width="0.384"><path stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.376" d="M84 96h36c0 19.882-16.118 36-36 36s-36-16.118-36-36 16.118-36 36-36c9.941 0 18.941 4.03 25.456 10.544"></path><path fill="#000000" d="M145.315 66.564a6 6 0 0 0-10.815 5.2l10.815-5.2ZM134.5 120.235a6 6 0 0 0 10.815 5.201l-10.815-5.201Zm-16.26-68.552a6 6 0 1 0 7.344-9.49l-7.344 9.49Zm7.344 98.124a6 6 0 0 0-7.344-9.49l7.344 9.49ZM84 152c-30.928 0-56-25.072-56-56H16c0 37.555 30.445 68 68 68v-12ZM28 96c0-30.928 25.072-56 56-56V28c-37.555 0-68 30.445-68 68h12Zm106.5-24.235C138.023 79.09 140 87.306 140 96h12c0-10.532-2.399-20.522-6.685-29.436l-10.815 5.2ZM140 96c0 8.694-1.977 16.909-5.5 24.235l10.815 5.201C149.601 116.522 152 106.532 152 96h-12ZM84 40c12.903 0 24.772 4.357 34.24 11.683l7.344-9.49A67.733 67.733 0 0 0 84 28v12Zm34.24 100.317C108.772 147.643 96.903 152 84 152v12a67.733 67.733 0 0 0 41.584-14.193l-7.344-9.49Z"></path><path stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.376" d="M161.549 58.776C166.965 70.04 170 82.666 170 96c0 13.334-3.035 25.96-8.451 37.223"></path></g><g id="SVGRepo_iconCarrier"><path stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.719999999999999" d="M84 96h36c0 19.882-16.118 36-36 36s-36-16.118-36-36 16.118-36 36-36c9.941 0 18.941 4.03 25.456 10.544"></path><path fill="#000000" d="M145.315 66.564a6 6 0 0 0-10.815 5.2l10.815-5.2ZM134.5 120.235a6 6 0 0 0 10.815 5.201l-10.815-5.201Zm-16.26-68.552a6 6 0 1 0 7.344-9.49l-7.344 9.49Zm7.344 98.124a6 6 0 0 0-7.344-9.49l7.344 9.49ZM84 152c-30.928 0-56-25.072-56-56H16c0 37.555 30.445 68 68 68v-12ZM28 96c0-30.928 25.072-56 56-56V28c-37.555 0-68 30.445-68 68h12Zm106.5-24.235C138.023 79.09 140 87.306 140 96h12c0-10.532-2.399-20.522-6.685-29.436l-10.815 5.2ZM140 96c0 8.694-1.977 16.909-5.5 24.235l10.815 5.201C149.601 116.522 152 106.532 152 96h-12ZM84 40c12.903 0 24.772 4.357 34.24 11.683l7.344-9.49A67.733 67.733 0 0 0 84 28v12Zm34.24 100.317C108.772 147.643 96.903 152 84 152v12a67.733 67.733 0 0 0 41.584-14.193l-7.344-9.49Z"></path><path stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.719999999999999" d="M161.549 58.776C166.965 70.04 170 82.666 170 96c0 13.334-3.035 25.96-8.451 37.223"></path></g></svg>'
-      
+
     },
     { provider: "Maya", holder: "JOHN CRISTOPHER L MUNIZ", number: "09541527663", qr: "assets/payment-qr/maya.JPG", link: "https://",
       note: "@jcmuniz", show: true,
@@ -132,10 +146,6 @@ const CONFIG = {
       note: "", show: true, 
       icon: '<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><title>wise</title><path fill="currentColor" d="M7.401 8.204L2 14.544h9.667l1.096-2.975H8.614l2.544-2.935v-.078L9.516 5.738h7.397L11.159 21.51h3.913L22 2.489H4.114z"/></svg>',
     },
-    { provider: "AirTM", holder: "JOHN CRISTOPHER MUNIZ", number: "XXX XXX XXXX", qr: "", link: "https://",
-      note: "", show: true, 
-      icon: '<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48"><title>airtm</title><path fill="none" stroke="currentColor" stroke-dashoffset="3" stroke-linecap="round" stroke-linejoin="round" d="M41.896 20.99L9.622 40.69c-2.063 1.26-4.342-.957-3.236-3.236L20.855 7.648c.894-1.841 3.035-1.411 3.72 0l16.487 33.928"/></svg>',
-    },
   ],
 
   /* BANKS: only what a sender needs. Never add PINs, passwords, card numbers or security codes.
@@ -143,15 +153,21 @@ const CONFIG = {
      icon: "bank" is the placeholder; use "assets/icons/bdo.svg" (or a data URL / pasted SVG) for a logo, plus iconColor: true to keep its colours.
      A number containing "X" is treated as a placeholder (Copy stays disabled). Copy a line to add more banks. */
   banks: [
-     { bank: "MariBank", holder: "JOHN CRISTOPHER MUNIZ", number: "1998 6489 663", type: "", branch: "", swift: "LAUIPHM2 / LAUIPHM2XXX", note: "", link: "https://", 
-      show: true, qr: "assets/payment-qr/maribank.PNG",
-      icon: '<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48"><title>lappli-m</title><circle cx="24" cy="24" r="17.902" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24" cy="24" r="21.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m38.846 13.997l2.976-2.024m-1.318 5.093l3.312-1.408m-3.173 14.936l3.312 1.408m-6.507 3.816l2.767 2.3M24 41.902V45.5M9.428 39.808l2.416-2.665m-4.95-.12l2.863-2.179M3.354 30l3.43-1.093M19.124 3.06l.952 3.474m12.222 1.603l1.691-3.175M17.344 30.64V17.345L24 30.656l6.656-13.292v13.292"/></svg>',
-     },
 
-    { bank: "BDO - UNIBANK", holder: "JOHN CRISTOPHER MUNIZ", number: "0106 1025 4820", type: "", branch: "SM DAVAO CITY ANNEX", swift: "BNORPHMM / BNORPHMMXXX", note: "", link: "https://", 
+    { bank: "BDO - UNIBANK", holder: "JOHN CRISTOPHER MUNIZ", number: "0106 1025 4820", type: "", branch: "SM DAVAO CITY ANNEX", swift: "BNORPHMMXXX", note: "", link: "https://", 
       show: true, qr: "assets/payment-qr/bdo.JPG",
        icon: '<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48"><title>bdo-digital-banking</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M38.5 5.5h-29c-2.2 0-4 1.8-4 4v29c0 2.2 1.8 4 4 4h29c2.2 0 4-1.8 4-4v-29c0-2.2-1.8-4-4-4"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M20.595 29.413V18.587h2.436a4.736 4.736 0 0 1 4.736 4.736v1.354a4.736 4.736 0 0 1-4.736 4.736zM14.966 24a2.707 2.707 0 0 1 0 5.413H10.5V18.587h4.466a2.707 2.707 0 0 1 0 5.413m0 0H10.5"/><rect width="7.172" height="10.826" x="30.328" y="18.587" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" rx="3.586" ry="3.586"/></svg>',
     },
+
+    { bank: "GoTyme Bank", holder: "JOHN CRISTOPHER MUNIZ", number: "0106 1025 4820", type: "", branch: "SM DAVAO CITY ANNEX", swift: "BNORPHMM / BNORPHMMXXX", note: "", link: "https://", 
+      show: true, qr: "assets/payment-qr/bdo.JPG",
+       icon: "assets/icons/gotyme.svg"
+      },
+   
+    { bank: "MariBank", holder: "JOHN CRISTOPHER MUNIZ", number: "1998 6489 663", type: "", branch: "", swift: "LAUIPHM2XXX", note: "", link: "https://", 
+      show: true, qr: "assets/payment-qr/maribank.PNG",
+      icon: '<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48"><title>lappli-m</title><circle cx="24" cy="24" r="17.902" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24" cy="24" r="21.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m38.846 13.997l2.976-2.024m-1.318 5.093l3.312-1.408m-3.173 14.936l3.312 1.408m-6.507 3.816l2.767 2.3M24 41.902V45.5M9.428 39.808l2.416-2.665m-4.95-.12l2.863-2.179M3.354 30l3.43-1.093M19.124 3.06l.952 3.474m12.222 1.603l1.691-3.175M17.344 30.64V17.345L24 30.656l6.656-13.292v13.292"/></svg>',
+     },
 
     { bank: "BPI", holder: "JOHN CRISTOPHER MUNIZ", number: "XXXX XXXX XXXX", type: "Savings", branch: "", swift: "",  note: "", link: "https://", 
       show: true, qr: "",
@@ -159,6 +175,8 @@ const CONFIG = {
       
       ,},
   ],
+
+  
 
   // about: ["Write a few sentences about yourself here."],
   // interests: ["Design", "Photography", "Coffee"],
@@ -195,7 +213,7 @@ const icon = (n, cls = "ic", keepColor = false) => {
     n = "data:image/svg+xml;utf8," + encodeURIComponent(m.trim()); }
   if (typeof n === "string" && !ICONS[n] && IMG_RE.test(n)) {
     const i = document.createElement("span"); i.className = cls + " img" + (keepColor ? " color" : ""); i.setAttribute("aria-hidden", "true");
-    i.style.setProperty("--src", 'url("' + n.replace(/"/g, "%22").replace(/\s+/g, " ") + '")');
+    i.style.setProperty("--src", 'url("' + new URL(n, document.baseURI).href.replace(/"/g, "%22") + '")');
     const t = new Image(); /* if the file is missing or invalid, show a generic link icon and explain in the console (F12) */
     t.onerror = () => { console.warn("Icon not found or invalid:", n.slice(0, 80)); i.replaceWith(icon("link")); }; t.src = n; return i; }
   const s = document.createElementNS(NS, "svg"), p = document.createElementNS(NS, "path");
@@ -236,7 +254,12 @@ function payList(items, defIcon, copyLabel) { if (!items.length) return null; co
     const btn = el("button", { class: "btn primary", type: "button", disabled: placeholder ? "disabled" : null,
       title: placeholder ? "Add your real number in script.js" : null, "aria-label": "Copy " + name + " " + what,
       onclick: async () => toast((await copyText(digits)) ? what.charAt(0).toUpperCase() + what.slice(1) + " copied." : "Could not copy. Select the number and copy it manually.") }, [icon("copy"), label]);
-    actions.append(btn); if (pay) actions.append(el("a", { class: "btn", href: pay, ...extAttrs(pay), text: "Open " + name }));
+    actions.append(btn);
+    if (p.routingNumber) actions.append(el("button", {
+      class: "btn copy-routing", type: "button", "aria-label": "Copy " + name + " routing number",
+      onclick: async () => toast((await copyText(p.routingNumber)) ? "Routing number copied." : "Could not copy. Select the routing number and copy it manually.")
+    }, [icon("copy"), "Copy Routing Number"]));
+    if (pay) actions.append(el("a", { class: "btn", href: pay, ...extAttrs(pay), text: "Open " + name }));
     let qrBox = null;
     if (p.qr) { /* QR stays hidden until the visitor taps the toggle button. Add qrOpen: true to start expanded. */
       const open = !!p.qrOpen, id = "qr-" + name.replace(/\W+/g, "-").toLowerCase() + "-" + idx;
@@ -248,12 +271,17 @@ function payList(items, defIcon, copyLabel) { if (!items.length) return null; co
       img.addEventListener("error", () => { qrBox.remove(); tg.remove(); }); /* image missing: remove the toggle too */
       actions.append(tg); }
     const meta = [p.type, p.branch, p.swift && "SWIFT/BIC " + p.swift].filter(Boolean).join(" · ");
+    const bankDetails = [
+      ["Bank name", p.bankName], ["Bank address", p.bankAddress], ["IBAN", p.iban],
+      ["BIC", p.bic], ["Routing number", p.routingNumber], ["Wire", p.wire], ["ACH", p.ach]
+    ].filter(([, value]) => value);
     w.append(el("article", { class: "pay" }, [
       el("div", { class: "pay-head" }, [el("span", { class: "ico" }, icon(p.icon || defIcon, "ic", p.iconColor)),
         el("span", { class: "txt" }, [el("b", { text: name }), el("small", { text: p.holder })])]),
       el("div", { class: "num", text: p.number }),
       meta ? el("p", { text: meta }) : null,
       p.note ? el("p", { text: p.note }) : null,
+      ...bankDetails.map(([label, value]) => el("p", { text: label + ": " + value })),
       actions, qrBox ])); });
   return w; }
 
@@ -265,8 +293,9 @@ const BUILD = {
       items.filter((i) => (i.group || "") === g).forEach((i) => { const a = linkEl({ icon: i.icon, title: i.name, sub: i.user, href: i.url, tag: i.label, color: i.iconColor }); if (a) wrap.append(a); }); });
     return wrap.children.length ? wrap : null; },
   contact: (c) => { const w = el("div", { class: "links" }); shown(c.contacts).forEach((i) => { const a = linkEl({ icon: i.icon, title: i.label, sub: i.value, href: i.href }); if (a) w.append(a); }); return w.children.length ? w : null; },
+    crypto: (c) => payList(shown(c.crypto), "wallet", "Copy IBAN"),
   payments: (c) => payList(shown(c.payments), "wallet", "Copy number"),
-  banks: (c) => payList(shown(c.banks), "bank", "Copy account number"),
+    banks: (c) => payList(shown(c.banks), "bank", "Copy account number"),
   featured: (c) => { const w = el("div", { class: "links" }); c.featured.forEach((i) => { const a = linkEl({ icon: i.icon, title: i.title, sub: i.desc, href: i.url }); if (a) w.append(a); }); return w.children.length ? w : null; },
   interests: (c) => c.interests.length && el("ul", { class: "chips" }, c.interests.map((t) => el("li", { text: t }))),
   faq: (c) => c.faq.length && el("div", {}, c.faq.map((f) => el("details", {}, [el("summary", { text: f.q }), el("p", { text: f.a })])))

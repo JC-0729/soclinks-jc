@@ -16,8 +16,8 @@ Double-click `index.html`. For the most accurate preview run `npx serve .` or `p
 - URLs must start with `https://`, `http://`, `mailto:` or `tel:`; invalid ones are skipped.
 - The sample URLs are placeholders. Replace them before publishing.
 
-## 4. GCash and Maya
-`CONFIG.payments`. Set `holder` and `number`. Optional: `qr` (e.g. `"assets/payment-qr/gcash.png"`), `link`, `note`. Hide one with `show: false`, or hide the section by setting `show: false` for `payments` in `CONFIG.sections`. The Copy button stays disabled while the number still contains `X`. This page only displays your details; it does not process payments. Think carefully about which numbers you want public.
+## 4. E-wallets and crypto wallets
+`CONFIG.payments` controls the E-wallets / FinTechs section; `CONFIG.crypto` controls Crypto Stablecoin Wallet. Each entry can set `provider`, `holder`, `number` (for crypto, use the wallet address), `qr`, `link`, and `note`. Crypto entries can also optionally show `bankName`, `bankAddress`, `iban`, `bic`, `routingNumber`, `wire`, and `ach` transfer details. An entry with `routingNumber` gets a separate **Copy Routing Number** button. Set an entry's `copyLabel` to customize its main Copy button. Hide an entry with `show: false`, or hide its section by setting `show: false` for its `payments` or `crypto` ID in `CONFIG.sections`. The Copy button stays disabled while a number still contains `X`. This page only displays your details; it does not process payments. Think carefully about which numbers and wallet addresses you make public.
 
 ## 5. Profile image
 Put your photo at `assets/profile.jpg` (square, about 400×400 px) and set `profile.photo: "assets/profile.jpg"`. `shape` can be `circle`, `rounded` or `square`. Without a photo, your initials are shown.
