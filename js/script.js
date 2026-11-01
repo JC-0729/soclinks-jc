@@ -159,8 +159,8 @@ const CONFIG = {
        icon: '<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48"><title>bdo-digital-banking</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M38.5 5.5h-29c-2.2 0-4 1.8-4 4v29c0 2.2 1.8 4 4 4h29c2.2 0 4-1.8 4-4v-29c0-2.2-1.8-4-4-4"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M20.595 29.413V18.587h2.436a4.736 4.736 0 0 1 4.736 4.736v1.354a4.736 4.736 0 0 1-4.736 4.736zM14.966 24a2.707 2.707 0 0 1 0 5.413H10.5V18.587h4.466a2.707 2.707 0 0 1 0 5.413m0 0H10.5"/><rect width="7.172" height="10.826" x="30.328" y="18.587" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" rx="3.586" ry="3.586"/></svg>',
     },
 
-    { bank: "GoTyme Bank", holder: "JOHN CRISTOPHER MUNIZ", number: "0106 1025 4820", type: "", branch: "SM DAVAO CITY ANNEX", swift: "BNORPHMM / BNORPHMMXXX", note: "", link: "https://", 
-      show: true, qr: "assets/payment-qr/bdo.JPG",
+    { bank: "GoTyme Bank", holder: "JOHN CRISTOPHER MUNIZ", number: "0102 4911 8129", type: "", branch: "", swift: "GOTYPHM2XXX", note: "", link: "https://", 
+      show: true, qr: "assets/payment-qr/gotyme.JPG",
        icon: "assets/icons/gotyme.svg"
       },
    
